@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from "jquery";
 
 function MainBody() {
   const [count, setCount] = useState(0)
